@@ -27,8 +27,17 @@ Find jobs that do not contain both the word `relocate` and the exact string `"no
 - [python | javascript & remote & ~us-based](https://dheerajck.github.io/hnwhoishiring/?search=python%20%7C%20javascript%20%26%20remote%20%26%20~us-based)
 Find jobs that contain `python` or `javascript`, and `remote`, but not `us-based`.
 
+## Keyboard shortcuts
+
+- `j` navigate downwards to next job
+- `k` navigate upwards to previous job
+- `/` focus search
+- `Esc` cancel focus
+- `a` toggle favourite job
+- `g` scroll to top
 
 ## Notes
+
 - I did use — purposefully because I like the way it looks right now :)
 - It is completely local, except I use GoatCounter for simple, privacy-friendly analytics.
 - It supports PWA, so you can install it on desktop or mobile.
