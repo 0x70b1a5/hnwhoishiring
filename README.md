@@ -34,6 +34,7 @@ Find jobs that contain `python` or `javascript`, and `remote`, but not `us-based
 - `/` focus search
 - `Esc` cancel focus
 - `a` toggle favourite job
+- `e` toggle exclude job
 - `g` scroll to top
 
 ## Notes
