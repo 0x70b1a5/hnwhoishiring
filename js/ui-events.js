@@ -163,6 +163,7 @@ const keyboardShortcuts = {
   "/": () => domElements.searchInput?.focus(),
   Escape: () => document.activeElement?.blur(),
   a: () => toggleFavoriteJob(),
+  e: () => toggleExcludeJob(),
   g: () => window.scrollTo({ top: 0, behavior: "smooth" }),
 };
 
@@ -196,6 +197,18 @@ function toggleFavoriteJob() {
     favoriteButton.click();
   } else {
     console.warn("No favorite button found on the focused job card.");
+  }
+}
+
+function toggleExcludeJob() {
+  const focused = document.activeElement;
+  const jobCard = focused?.closest(".job-card");
+  const removeUnHideButton = jobCard?.querySelector(".btn-remove, .btn-unhide");
+
+  if (removeUnHideButton) {
+    removeUnHideButton.click();
+  } else {
+    console.warn("No remove/unhide button found on the focused job card.");
   }
 }
 
