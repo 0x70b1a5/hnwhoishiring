@@ -29,13 +29,13 @@ Find jobs that contain `python` or `javascript`, and `remote`, but not `us-based
 
 ## Keyboard shortcuts
 
-- `j` navigate downwards to next job
-- `k` navigate upwards to previous job
-- `/` focus search
-- `Esc` cancel focus
-- `a` toggle favourite job
-- `e` toggle exclude job
-- `g` scroll to top
+- `j` – navigate downwards to next job
+- `k` – navigate upwards to previous job
+- `/` – focus search
+- `Esc` – cancel focus
+- `a` – toggle favourite job
+- `e` – toggle exclude job
+- `g` – scroll to top
 
 ## Notes
 
